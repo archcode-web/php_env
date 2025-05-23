@@ -1,7 +1,20 @@
 {
+    "name": "archcodeweb/php_env",
+    "description": "Leitor de arquivos .env em PHP",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
-    "psr-4": {
-        "EnvReader\\": "src/"
-    }
-}
+        "psr-4": {
+            "EnvReader\\": "src/"
+        }
+    },
+    "require": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/archcode-web/php_env"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
