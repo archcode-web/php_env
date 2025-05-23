@@ -1,7 +1,5 @@
 {
     "name": "archcodeweb/php_env",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "description": "Leitor de arquivos .env em PHP",
     "type": "library",
     "license": "MIT",
