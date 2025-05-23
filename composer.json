@@ -1,0 +1,15 @@
+{
+    "autoload": {
+    "psr-4": {
+        "EnvReader\\": "src/"
+    }
+},
+"autoload-dev": {
+    "psr-4": {
+        "EnvReader\\Tests\\": "tests/"
+    }
+},
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
+    }
+}
